@@ -63,7 +63,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                           TextFormField(
                             decoration: InputDecoration(
-                              hintText: "",
+                              hintText: "email@address.com",
                               fillColor: Colors.grey[300],
                               filled: true,
                               border: OutlineInputBorder(
@@ -97,7 +97,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             obscureText: true,
                             obscuringCharacter: "·",
                             decoration: InputDecoration(
-                              hintText: "",
+                              hintText: "****",
                               fillColor: Colors.grey[300],
                               filled: true,
                               border: OutlineInputBorder(

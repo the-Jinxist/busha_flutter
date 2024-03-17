@@ -11,11 +11,34 @@ class TransactionDetailSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final screenSize = MediaQuery.of(context).size;
     return Column(
       children: [
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [Text(label), Text(detail)],
+          children: [
+            Text(
+              label,
+              style: const TextStyle(
+                fontSize: 16,
+                color: Colors.grey,
+                fontWeight: FontWeight.w400,
+              ),
+            ),
+            SizedBox(
+              width: screenSize.width - 150,
+              child: Text(
+                detail,
+                maxLines: 10,
+                textAlign: TextAlign.end,
+                style: const TextStyle(
+                  fontSize: 16,
+                  color: Colors.black,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+            ),
+          ],
         ),
         const SizedBox(
           height: 10,

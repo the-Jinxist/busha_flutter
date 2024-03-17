@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:busha_flutter_assessment/core/transactions/service/transaction_service.dart';
 import 'package:busha_flutter_assessment/util/resource.dart';
 import 'package:flutter/material.dart';

@@ -17,23 +17,50 @@ class TopMoversItem extends StatelessWidget {
       ),
       padding: const EdgeInsets.all(10),
       margin: const EdgeInsets.only(right: 10),
-      child: const Column(
+      child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
           CircleAvatar(
             radius: 25,
+            backgroundColor: Theme.of(context).colorScheme.secondary,
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
-          Text("Ethereum"),
-          SizedBox(
+          const Text(
+            "Ethereum",
+            style: TextStyle(
+              fontSize: 16,
+              color: Colors.black,
+              fontWeight: FontWeight.w400,
+            ),
+          ),
+          const SizedBox(
             height: 5,
           ),
-          Text("1.76-"),
+          const Row(
+            children: [
+              Icon(
+                Icons.arrow_outward,
+                color: Colors.green,
+                size: 15,
+              ),
+              SizedBox(
+                width: 5,
+              ),
+              Text(
+                "1.76-",
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Colors.green,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );

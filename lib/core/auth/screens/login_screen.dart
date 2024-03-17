@@ -62,11 +62,16 @@ class _LoginScreenState extends State<LoginScreen> {
                             height: 10,
                           ),
                           TextFormField(
-                            decoration: const InputDecoration(
-                              hintText: "Email",
-                              border: OutlineInputBorder(),
+                            decoration: InputDecoration(
+                              hintText: "",
+                              fillColor: Colors.grey[300],
+                              filled: true,
+                              border: OutlineInputBorder(
+                                borderSide: BorderSide.none,
+                                borderRadius: BorderRadius.circular(8),
+                              ),
                               contentPadding:
-                                  EdgeInsets.symmetric(horizontal: 10),
+                                  const EdgeInsets.symmetric(horizontal: 10),
                             ),
                             keyboardType: TextInputType.emailAddress,
                             controller: emailController,
@@ -89,11 +94,17 @@ class _LoginScreenState extends State<LoginScreen> {
                             height: 10,
                           ),
                           TextFormField(
-                            decoration: const InputDecoration(
-                              hintText: "Password",
-                              border: OutlineInputBorder(),
+                            obscureText: true,
+                            obscuringCharacter: "·",
+                            decoration: InputDecoration(
+                              hintText: "",
+                              fillColor: Colors.grey[300],
+                              filled: true,
+                              border: OutlineInputBorder(
+                                  borderSide: BorderSide.none,
+                                  borderRadius: BorderRadius.circular(8)),
                               contentPadding:
-                                  EdgeInsets.symmetric(horizontal: 10),
+                                  const EdgeInsets.symmetric(horizontal: 10),
                             ),
                             controller: passwordController,
                             validator: (pass) {

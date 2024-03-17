@@ -32,7 +32,7 @@ class MyAssetsItem extends StatelessWidget {
                     "BTC",
                     style: TextStyle(
                       fontSize: 12,
-                      color: Colors.black,
+                      color: Colors.grey,
                       fontWeight: FontWeight.w400,
                     ),
                   ),
@@ -44,7 +44,7 @@ class MyAssetsItem extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
               Text(
-                "N24, 000",
+                "N24,000",
                 style: TextStyle(
                   fontSize: 16,
                   color: Colors.black,

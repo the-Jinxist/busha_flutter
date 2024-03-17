@@ -30,7 +30,14 @@ class _TransactionsScreenState extends State<TransactionsScreen> {
           },
           child: const Icon(Icons.chevron_left),
         ),
-        title: const Text("BTC Transactions"),
+        title: const Text(
+          "BTC Transactions",
+          style: TextStyle(
+            fontSize: 16,
+            color: Colors.black,
+            fontWeight: FontWeight.w600,
+          ),
+        ),
         centerTitle: true,
       ),
       body: Consumer<TransactionViewmodel>(

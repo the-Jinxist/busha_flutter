@@ -63,6 +63,7 @@ class _TransactionsScreenState extends State<TransactionsScreen> {
           if (vm.transactionsResource.isSuccess()) {
             return ListView.builder(
               itemCount: 4,
+              shrinkWrap: true,
               itemBuilder: (context, index) {
                 return const TransactionItem();
               },

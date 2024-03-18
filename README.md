@@ -1,16 +1,6 @@
 # busha_flutter_assessment
 
-A new Flutter project.
+Attempt at the busha assessment.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Demo:
+![SimulatorScreenRecording-iPhone14-2024-03-18at11 19 32-ezgif com-video-to-gif-converter](https://github.com/the-Jinxist/busha_flutter/assets/35970737/2053635e-4b65-4194-9dd4-c11e01f7c592)
